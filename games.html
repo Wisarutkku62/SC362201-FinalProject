@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>หน้าแรก</title>
+    <title>เกมฝึกทักษะทาง Cyberbully&Awareness</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/games.css">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
 
             <nav class="nav-menu">
                 <ul>
-                    <li><a href="index.html" class="active">หน้าแรก</a></li>
+                    <li><a href="index.html">หน้าแรก</a></li>
                     <li class="dropdown">
                         <a href="learning.html">เรียนรู้ ›</a>
                         <ul class="submenu-l2">
@@ -30,7 +30,9 @@
                                 <a href="cyberthreats.html">ภัยไซเบอร์ ›</a>
                                 <ul class="submenu-l3">
                                     <li><a href="cyberthreats.html"><strong>ภัยทางไซเบอร์ &
-                                                Cyberbully พร้อมแนวทางรับมือ</strong><span>รู้ทันภัยก่อนตกเป็นเหยื่อ</span></a></li>
+                                                Cyberbully
+                                                พร้อมแนวทางรับมือ</strong><span>รู้ทันภัยก่อนตกเป็นเหยื่อ</span></a>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="dropdown-l2">
@@ -41,7 +43,7 @@
                                     <li><a href="translatecyber.html"><strong>Cyber แปลเป็นภาษาคน</strong><span>ศัพท์ยาก
                                                 ให้เข้าใจในประโยคเดียว</span></a></li>
                                     <li><a
-                                            href="#"><strong>วิเคราะห์สถิติ</strong><span>เห็นภาพภัยไซเบอร์ใกล้ตัว</span></a>
+                                            href="statistic.html"><strong>วิเคราะห์สถิติ</strong><span>เห็นภาพภัยไซเบอร์ใกล้ตัว</span></a>
                                     </li>
                                 </ul>
                             </li>
@@ -49,7 +51,7 @@
                     </li>
 
                     <li class="dropdown">
-                        <a href="skills.html">เกมฝึกทักษะ ›</a>
+                        <a href="skills.html" class="active">เกมฝึกทักษะ ›</a>
                         <ul class="submenu-l2">
                             <li class="dropdown-l2">
                                 <a href="games.html">เกมฝึกทักษะ ›</a>
@@ -110,99 +112,77 @@
                 </div>
             </header>
 
-            <section class="banner">
-                <div class="text">
-                    <span class="tag">เรียนรู้ ป้องกัน และส่งต่อความใจดี</span>
-                    <h2 class="hero-title">ออนไลน์อย่างมั่นใจ<br>ไม่ทิ้งใครไว้ลำพัง</h2>
-                    <p class="hero-desc">
-                        เรียนรู้วิธีรับมือ Cyberbully ผ่านเกม แบบทดสอบ และคำแนะนำจากผู้เชี่ยวชาญ
-                        ในพื้นที่ที่ปลอดภัยสำหรับทุกคน
-                    </p>
-                    <div class="hero-buttons">
-                        <a class="btn-primary" href="#" >เช็คความพร้อมของฉัน</a>
-                        <a class="btn-secondary" href="learning.html">เริ่มเรียนรู้</a>
-                    </div>
-                </div>
-
-                <div class="progress-card">
-                    <div class="progress-circle">
-                        <span class="percent-text">68%</span>
-                        <span class="sub-text">สัปดาห์นี้</span>
-                    </div>
-                    <div class="progress-info">
-                        <span class="progress-label">ภารกิจของคุณ</span>
-                        <h3 class="progress-status">เกือบถึงเป้าหมายแล้ว!</h3>
-                        <span class="badge-streak">4 วันติดเก่งมาก</span>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section-header">
-                <div>
-                    <h3 class="section-title">ภารกิจประจำวันของคุณ</h3>
-                    <p class="section-subtitle">สะสมคะแนนเพื่อรับเข็มมุ่งความปลอดภัย</p>
-                </div>
-            </section>
-
-            <div class="cards-grid task-grid">
-                <div class="card task-card">
-                    <h4 class="card-title">Mini Quiz ประจำวัน</h4>
-                    <p class="card-desc">ตอบคำถาม 1 ข้อ เรื่องการรับมือคอมเมนต์ toxic</p>
-                    <button class="btn-primary btn-sm">ทำเลย</button>
-                </div>
-
-                <div class="card task-card">
-                    <h4 class="card-title">เล่นเกม Spot the Flag</h4>
-                    <p class="card-desc">ฝึกมองสัญญาณอันตราย 1 รอบ</p>
-                    <button class="btn-primary btn-sm">เล่นเลย</button>
-                </div>
-
-                <div class="card task-card">
-                    <h4 class="card-title">ส่งพลังบวก</h4>
-                    <p class="card-desc">เขียนข้อความกำลังใจให้เพื่อน 1 คน</p>
-                    <button class="btn-primary btn-sm">ส่งเลย</button>
+            <div class="page-header">
+                <div class="page-title">
+                    <h2>เกมฝึกทักษะความปลอดภัยออนไลน์</h2>
+                    <p>เลือกด่านเพื่อเริ่มทดสอบและฝึกฝนทักษะไซเบอร์ทั้ง 4 เกม</p>
                 </div>
             </div>
 
-            <div class="emergency-box">
-                <div class="emergency-text">
-                    <h4> ต้องการคนรับฟัง หรือกำลังโดนกลั่นแกล้ง?</h4>
-                    <p>พื้นที่นี้ปลอดภัย ไม่มีการตัดสิน พูดคุยกับผู้เชี่ยวชาญได้ฟรีตลอด 24 ชั่วโมง</p>
+            <div class="game-card">
+                <div class="card-header">
+                    <span class="tag">เกมที่ 1 • Matching</span>
+                    <div class="card-body">
+                        <h3>เกมจับคู่ทาง Cyber</h3>
+                        <p>จับคู่สถานการณ์กับวิธีรับมือ</p>
+                    </div>
                 </div>
-                <button class="btn-danger">แชทปรึกษาทันที</button>
-            </div>
-
-            <section class="section-header">
-                <div>
-                    <h3 class="section-title">เลือกเส้นทางของคุณ</h3>
-                    <p class="section-subtitle">เริ่มต้นจากสิ่งที่คุณต้องการในตอนนี้</p>
-                </div>
-            </section>
-
-            <div class="cards-grid">
-                <div class="card">
-                    <span class="card-category">เรียนรู้</span>
-                    <h4 class="card-title">Cyberbully คืออะไร?</h4>
-                    <p class="card-desc">ทำความเข้าใจรูปแบบและการป้องกันการกลั่นแกล้งบนโลกออนไลน์</p>    
-                </div>
-
-                <div class="card">
-                    <span class="card-category">ฝึกทักษะ</span>
-                    <h4 class="card-title">แบบทดสอบรับมือไซเบอร์</h4>
-                    <p class="card-desc">ทดสอบทักษะการตัดสินใจในสถานการณ์เสี่ยงต่างๆ</p>
-                </div>
-
-                <div class="card">
-                    <span class="card-category">ช่วยเหลือ</span>
-                    <h4 class="card-title">ปรึกษาผู้เชี่ยวชาญ</h4>
-                    <p class="card-desc">พื้นที่พูดคุยและขอคำปรึกษาแบบเป็นส่วนตัว</p>
+                <div class="card-bottom">
+                    <span class="duration">ใช้เวลาประมาณ 5 นาที</span>
+                    <button class="btn-play">เริ่มเล่นเกม</button>
                 </div>
             </div>
-        </main>
+
+            <div class="game-card">
+                <div class="card-header">
+                    <span class="tag">เกมที่ 2 • Red Flags</span>
+                    <div class="card-body">
+                        <h3>Spot the Flag</h3>
+                        <p>ฝึกมองสัญญาณอันตราย</p>
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <span class="duration">ใช้เวลาประมาณ 7 นาที</span>
+                    <button class="btn-play">เริ่มเล่นเกม</button>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="card-header">
+                    <span class="tag">เกมที่ 3 • Fake App</span>
+                    <div class="card-body">
+                        <h3>จับผิดแอปปลอม</h3>
+                        <p>แยกแอปจริงออกจากแอปหลอก</p>
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <span class="duration">ใช้เวลาประมาณ 8 นาที</span>
+                    <button class="btn-play">เริ่มเล่นเกม</button>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="card-header">
+                    <span class="tag">เกมที่ 4 • Decode</span>
+                    <div class="card-body">
+                        <h3>ถอดรหัสภาพ</h3>
+                        <p>สืบหาเบาะแสที่ซ่อนอยู่</p>
+                    </div>
+                </div>
+                <div class="card-bottom">
+                    <span class="duration">ใช้เวลาประมาณ 10 นาที</span>
+                    <button class="btn-play">เริ่มเล่นเกม</button>
+                </div>
+            </div>
+
+    </div>
+    </main>
     </div>
     <div class="footer">
-       <p>&copy; 2026 Cyberbully & Awareness IT14</p>
+        © 2026 Cyberbully & Awareness IT14
     </div>
+
+
 </body>
 
 </html>
