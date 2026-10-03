@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>เกมฝึกทักษะทาง Cyberbully&Awareness</title>
+    <title>Spot the Flag สังเกตจุดอันตราย ทาง Cyber</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/games.css">
+    <link rel="stylesheet" href="css/spottheflagresult.css">
 </head>
 
 <body>
@@ -56,9 +56,10 @@
                             <li class="dropdown-l2">
                                 <a href="games.html">เกมฝึกทักษะ ›</a>
                                 <ul class="submenu-l3">
-                                    <li><a href="#"><strong>เกมจับคู่ทาง
+                                    <li><a href="matchgame.html"><strong>เกมจับคู่ทาง
                                                 Cyber</strong><span>จับคู่สถานการณ์กับวิธีรับมือ</span></a></li>
-                                    <li><a href="#"><strong>Spot the Flag</strong><span>ฝึกมองสัญญาณอันตราย</span></a>
+                                    <li><a href="spot_the_flag.html"><strong>Spot the
+                                                Flag</strong><span>ฝึกมองสัญญาณอันตราย</span></a>
                                     </li>
                                     <li><a
                                             href="#"><strong>จับผิดแอปปลอม</strong><span>แยกแอปจริงออกจากแอปหลอก</span></a>
@@ -111,77 +112,78 @@
                     <div class="user-avatar"></div>
                 </div>
             </header>
+            <section class="game-header">
+                <h2 class="game-title">Spot the Flag (ฝึกมองสัญญาณอันตราย)</h2>
+                <p class="game-description">สังเกตข้อความและตรวจหาสัญญาณอันตรายหรือจุดที่เข้าข่ายการคุกคามทางออนไลน์</p>
+            </section>
+            <div class="game-grid">
 
-            <div class="page-header">
-                <div class="page-title">
-                    <h2>เกมฝึกทักษะความปลอดภัยออนไลน์</h2>
-                    <p>เลือกด่านเพื่อเริ่มทดสอบและฝึกฝนทักษะไซเบอร์ทั้ง 4 เกม</p>
-                </div>
-            </div>
-
-            <div class="game-card">
-                <div class="card-header">
-                    <span class="tag">เกมที่ 1 • Matching</span>
-                    <div class="card-body">
-                        <h3>เกมจับคู่ทาง Cyber</h3>
-                        <p>จับคู่สถานการณ์กับวิธีรับมือ</p>
+                <div>
+                    <h3 class="section-title">สถานการณ์ตัวอย่าง</h3>
+                    <div class="preview-card">
+                        <p style="margin-top: 0;"><strong>จาก:</strong> <span
+                                class="hl-red">unknown_x999@mail.com</span></p>
+                        <hr style="border: 0; border-top: 1px solid #f1f5f9; margin: 12px 0;">
+                        <p>
+                            สวัสดีครับ <span class="hl-red">เรามีรูปหลุดและคลิปส่วนตัวของคุณ</span> ตอนนี้ <span
+                                class="hl-red">เอารูปคุณไปตัดต่อประจานลงกลุ่มแล้ว</span>
+                            ถ้าไม่อยากให้เรื่องใหญ่กว่านี้ <span class="hl-red">ให้โอนเงินมาที่บัญชีนี้ 5,000 บาท</span>
+                            ต้องจัดการ <span class="hl-red">ภายใน 2 ชั่วโมงนี้เท่านั้น</span> ไม่งั้นเราจะ <span
+                                class="hl-red">ส่งให้เพื่อนและครูทุกคนในโรงเรียนของคุณดูทันที!</span>
+                        </p>
                     </div>
                 </div>
-                <div class="card-bottom">
-                    <span class="duration">ใช้เวลาประมาณ 5 นาที</span>
-                    <a href="matchgame.html"class="btn-play">เริ่มเล่นเกม</a>
-                </div>
-            </div>
-
-            <div class="game-card">
-                <div class="card-header">
-                    <span class="tag">เกมที่ 2 • Red Flags</span>
-                    <div class="card-body">
-                        <h3>Spot the Flag</h3>
-                        <p>ฝึกมองสัญญาณอันตราย</p>
+                <div>
+                    <h3 class="section-title">สัญญาณอันตรายที่พบ (Flags)</h3>
+                    <div class="flag-list">
+                        <div class="flag-card">
+                            <div class="flag-card-header">
+                                <h4 class="flag-card-title">1. บัญชีผู้ส่งไม่ระบุตัวตน</h4>
+                                <span class="color-badge badge-red">ไฮไลท์สีแดง</span>
+                            </div>
+                            <p class="flag-card-desc">ใช้อีเมลปลอมหรือบัญชีอวตารเพื่อซ่อนตัวตนในการส่งข้อความ</p>
+                        </div>
+                        <div class="flag-card">
+                            <div class="flag-card-header">
+                                <h4 class="flag-card-title">2. ข้อความข่มขู่และแบล็กเมล์</h4>
+                                <span class="color-badge badge-red">ไฮไลท์สีแดง</span>
+                            </div>
+                            <p class="flag-card-desc">การอ้างว่ามีข้อมูลลับหรือรูปหลุดเพื่อสร้างความกลัวให้ผู้รับ</p>
+                        </div>
+                        <div class="flag-card">
+                            <div class="flag-card-header">
+                                <h4 class="flag-card-title">3. การดัดแปลง / ตัดต่อรูปภาพประจาน</h4>
+                                <span class="color-badge badge-red">ไฮไลท์สีแดง</span>
+                            </div>
+                            <p class="flag-card-desc">การละเมิดความเป็นส่วนตัวและทำให้ผู้อื่นเสื่อมเสียชื่อเสียง</p>
+                        </div>
+                        <div class="flag-card">
+                            <div class="flag-card-header">
+                                <h4 class="flag-card-title">4. การเรียกร้องผลประโยชน์ / โอนเงิน</h4>
+                                <span class="color-badge badge-red">ไฮไลท์สีแดง</span>
+                            </div>
+                            <p class="flag-card-desc">บังคับขู่เอาเงินหรือสิ่งตอบแทนเพื่อแลกกับการหยุดปล่อยข้อมูล</p>
+                        </div>
+                        <div class="flag-card">
+                            <div class="flag-card-header">
+                                <h4 class="flag-card-title">5. การกำหนดเวลากดดัน (Urgency)</h4>
+                                <span class="color-badge badge-red">ไฮไลท์สีแดง</span>
+                            </div>
+                            <p class="flag-card-desc">เร่งรัดเวลาอย่างกะทันหันเพื่อให้เหยื่อตกใจและรีบทำตามโดยไม่ทันคิด
+                            </p>
+                        </div>
+                        <div class="flag-card">
+                            <div class="flag-card-header">
+                                <h4 class="flag-card-title">6. การขู่ประจานต่อสาธารณะ</h4>
+                                <span class="color-badge badge-red">ไฮไลท์สีแดง</span>
+                            </div>
+                            <p class="flag-card-desc">อ้างบุคคลรอบตัว (เพื่อน, ครู) เพื่อเพิ่มความอับอายและสร้างแรงกดดัน
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="card-bottom">
-                    <span class="duration">ใช้เวลาประมาณ 7 นาที</span>
-                    <a  href="spot_the_flag.html" class="btn-play">เริ่มเล่นเกม</a>
-                </div>
             </div>
-
-            <div class="game-card">
-                <div class="card-header">
-                    <span class="tag">เกมที่ 3 • Fake App</span>
-                    <div class="card-body">
-                        <h3>จับผิดแอปปลอม</h3>
-                        <p>แยกแอปจริงออกจากแอปหลอก</p>
-                    </div>
-                </div>
-                <div class="card-bottom">
-                    <span class="duration">ใช้เวลาประมาณ 8 นาที</span>
-                    <a  href=" " class="btn-play">เริ่มเล่นเกม</a>
-                </div>
-            </div>
-
-            <div class="game-card">
-                <div class="card-header">
-                    <span class="tag">เกมที่ 4 • Decode</span>
-                    <div class="card-body">
-                        <h3>ถอดรหัสภาพ</h3>
-                        <p>สืบหาเบาะแสที่ซ่อนอยู่</p>
-                    </div>
-                </div>
-                <div class="card-bottom">
-                    <span class="duration">ใช้เวลาประมาณ 10 นาที</span>
-                    <a href=" " class="btn-play">เริ่มเล่นเกม</a>
-                </div>
-            </div>
-
-    </div>
-    </main>
-    </div>
-    <div class="footer">
-        © 2026 Cyberbully & Awareness IT14
-    </div>
-
+        </main>
 
 </body>
 
