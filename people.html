@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>คลังบทเรียน Cyberbully & CyberAwareness</title>
+    <title>ชุมชน &amp; กำลังใจ | Cyberbully &amp; Awareness</title>
+    <link rel="stylesheet" href="css/people.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/lessons.css">
 </head>
 
 <body>
@@ -101,97 +101,85 @@
             </div>
         </aside>
 
-        <main class="main-content">
-            <header class="topbar">
-                <div class="search-box">
-                    <input type="text" placeholder="ค้นหา...">
-                </div>
-                <div class="topbar-right">
+        <main class="content people-page">
+            <div class="people">
+                <header class="people-hero">
+                    <div class="hero-copy">
+                        <span class="eyebrow">เราไม่จำเป็นต้องผ่านเรื่องยากเพียงลำพัง</span>
+                        <h1>ชุมชน &amp; กำลังใจ</h1>
+                        <p>พื้นที่เล็ก ๆ สำหรับพักใจ รับฟังกัน และส่งต่อกำลังใจให้คนที่กำลังต้องการ</p>
+                        <a class="hero-link" href="#community-guidelines">มาร่วมสร้างพื้นที่ปลอดภัย <span
+                                aria-hidden="true">↓</span></a>
+                    </div>
+                </header>
 
-                    <div class="user-avatar"></div>
-                </div>
-            </header>
-            <section class="content-body">
-                <h1 class="page-title">ห้องสมุดคลังบทเรียน</h1>
-                <p class="page-subtitle">5 บทเรียนพร้อมสำหรับการเรียนรู้</p>
+                <section class="welcome-note" aria-label="ข้อความต้อนรับ">
+                    <div>
+                        <p class="welcome-quote">การรับฟังอย่างตั้งใจ อาจเป็นจุดเริ่มต้นของวันที่ดีขึ้น</p>
+                        <p class="welcome-caption">วันนี้คุณเลือกได้ว่าจะอ่าน รับกำลังใจ หรือส่งต่อกำลังใจให้ใครสักคน
+                        </p>
+                    </div>
+                </section>
 
-                
+                <section class="community-layout">
+                    <div class="share-card">
+                        <div class="section-heading share-heading">
+                            <div>
+                                <span class="section-kicker">ส่งต่อสิ่งดี ๆ</span>
+                                <h2>ฝากข้อความให้กำลังใจ</h2>
+                            </div>
+                        </div>
+                        <p class="share-intro">เขียนข้อความสั้น ๆ ที่อยากให้ใครสักคนได้อ่าน
+                            ข้อความจะแสดงเป็นตัวอย่างในหน้านี้</p>
+                        <form class="share-form" action="#community-board" method="get">
+                            <label class="sr-only" for="encouragement">ข้อความให้กำลังใจ</label>
+                            <textarea id="encouragement" name="encouragement" rows="3" maxlength="150"
+                                placeholder="เช่น วันนี้เก่งมากแล้วนะ อย่าลืมใจดีกับตัวเองด้วย"></textarea>
+                            <div class="share-actions">
+                                <span>ไม่ต้องใส่ชื่อหรือข้อมูลส่วนตัว</span>
+                                <button type="button">ส่งกำลังใจ
+                            </div>
+                        </form>
+                        <p class="form-note">ต้นแบบหน้าเว็บ — การส่งข้อความยังไม่ถูกบันทึกหรือเผยแพร่จริง</p>
+                    </div>
 
-                <div class="video-grid">
-                    <article class="video-card">
-                        <div class="video-wrapper">
-                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="card-details">
-                            <span class="badge">ไซเบอร์บูลลี่</span>
-                            <h3 class="video-title">เข้าใจและป้องกันไซเบอร์บูลลี่</h3>
-                            <p class="video-description">เรียนรู้รูปแบบของการกลั่นแกล้งบนโลกออนไลน์
-                                และวิธีจัดการรับมืออย่างถูกวิธีเพื่อปกป้องตนเอง</p>
-                        </div>
-                    </article>
+                    <aside class="gentle-card">
+                        <h2>ถ้าอยากเล่าเรื่องของตัวเอง</h2>
+                        <p>คุณเลือกเล่าเท่าที่พร้อมได้ และสามารถคุยกับผู้ใหญ่หรือคนที่ไว้ใจเพื่อขอความช่วยเหลือได้เสมอ
+                        </p>
+                        <a href="consult.html">ไปหน้าขอคำปรึกษา</a>
+                    </aside>
+                </section>
 
-                    <article class="video-card">
-                        <div class="video-wrapper">
-                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player"
-                                allowfullscreen></iframe>
+                <section class="board-section" id="community-board">
+                    <div class="section-heading">
+                        <div>
+                            <span class="section-kicker">ถึงกันและกัน</span>
+                            <h2>มุมแบ่งปันกำลังใจ</h2>
                         </div>
-                        <div class="card-details">
-                            <span class="badge">มารยาทดิจิทัล</span>
-                            <h3 class="video-title">ผลกระทบต่อจิตใจเหยื่อ</h3>
-                            <p class="video-description">ทำความเข้าใจความรู้สึกของผู้ที่ถูกกระทำ
-                                และการสร้างสภาพแวดล้อมเชิงบวกในโลกออนไลน์</p>
-                        </div>
-                    </article>
-
-                    <article class="video-card">
-                        <div class="video-wrapper">
-                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="card-details">
-                            <span class="badge">ความเป็นส่วนตัว</span>
-                            <h3 class="video-title">ความลับของคุณคืออะไร?</h3>
-                            <p class="video-description">การตั้งค่าความเป็นส่วนตัวบนแอปพลิเคชันหลัก
-                                และข้อควรระวังในการโพสต์ข้อมูลส่วนตัว</p>
-                        </div>
-                    </article>
-
-                    <article class="video-card">
-                        <div class="video-wrapper">
-                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="card-details">
-                            <span class="badge">ความเป็นส่วนตัว</span>
-                            <h3 class="video-title">ความลับของคุณคืออะไร?</h3>
-                            <p class="video-description">การตั้งค่าความเป็นส่วนตัวบนแอปพลิเคชันหลัก
-                                และข้อควรระวังในการโพสต์ข้อมูลส่วนตัว</p>
-                        </div>
-                    </article>
-
-                     <article class="video-card">
-                        <div class="video-wrapper">
-                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="card-details">
-                            <span class="badge">ความเป็นส่วนตัว</span>
-                            <h3 class="video-title">ความลับของคุณคืออะไร?</h3>
-                            <p class="video-description">การตั้งค่าความเป็นส่วนตัวบนแอปพลิเคชันหลัก
-                                และข้อควรระวังในการโพสต์ข้อมูลส่วนตัว</p>
-                        </div>
-                    </article>
-
-                </div>
-            </section>
-
+                    </div>
+                    <div class="board-list">
+                        <article class="board-note">
+                            <div>
+                                <p>ถ้าวันนี้ยังทำได้แค่นิดเดียว ก็นับว่าได้เริ่มแล้วนะ</p><span>ข้อความจากชุมชน</span>
+                            </div>
+                        </article>
+                        <article class="board-note">
+                            <div>
+                                <p>ขอให้ทุกคนเจอคนที่รับฟังและอยู่ข้าง ๆ ในวันที่ต้องการ</p><span>ข้อความจากชุมชน</span>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+                <p class="urgent-help">ถ้าคุณกำลังรู้สึกไม่ปลอดภัยหรือรับมือไม่ไหว โทรสายด่วนสุขภาพจิต 1323</a> ได้ตลอด
+                    24 ชั่วโมง</p>
+            </div>
         </main>
+    </div>
 
-    </div>
-    <div class="footer">
-        © 2026 Cyberbully & Awareness IT14
-    </div>
+    <footer class="footer">
+        <p>© 2026 Cyberbullying / Online Safety Awareness เว็บให้ความรู้วัยรุ่นเรื่องความปลอดภัยออนไลน์</p>
+    </footer>
 </body>
 
 </html>

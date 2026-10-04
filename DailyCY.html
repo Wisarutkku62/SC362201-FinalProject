@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>คลังบทเรียน Cyberbully & CyberAwareness</title>
+    <title>Daily Cyber Mini Quiz - Cyberbully & Awareness</title>
+    <link rel="stylesheet" href="css/DailyCY.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/lessons.css">
 </head>
 
 <body>
-     <div class="layout-container">
+    <div class="layout-container">
         <aside class="sidebar">
 
             <div class="logo-area">
@@ -101,97 +101,95 @@
             </div>
         </aside>
 
-        <main class="main-content">
-            <header class="topbar">
-                <div class="search-box">
-                    <input type="text" placeholder="ค้นหา...">
+
+        <main class="content daily-dashboard">
+
+
+            <div class="dashboard-header">
+                <div>
+                    <h2>Daily Cyber Mini Quiz</h2>
+                    <p>สะสมความรู้ไซเบอร์วันละ 1 ข้อ สร้างภูมิคุ้มกันออนไลน์ไปด้วยกัน</p>
                 </div>
-                <div class="topbar-right">
+            </div>
 
-                    <div class="user-avatar"></div>
+            <div class="dashboard-grid">
+
+
+                <div class="main-quiz-box">
+                    <div class="quiz-badge-wrap">
+                        <span class="quiz-cat-tag"> คำถามความปลอดภัยประจำวัน</span>
+                        <span class="exp-tag">+10 EXP</span>
+                    </div>
+
+                    <h1 class="daily-q-title">
+                        หากมีคนนำรูปภาพของคุณไปตัดต่อประจานในกลุ่มปิด โดยที่คุณไม่อนุญาต ข้อใดคือสิ่งที่
+                        "ควรกระทำเป็นอันดับแรก"?
+                    </h1>
+
+                    <form id="dailyAnswerForm" action="answer.html" method="get"></form>
+                    <div class="options-grid">
+                        <label class="grid-option-label">
+                            <input type="radio" name="choice" value="A" form="dailyAnswerForm" required hidden>
+                            <span class="grid-option-btn">
+                                <span class="opt-key">A</span>
+                                <span class="opt-text">บันทึกภาพหน้าจอ (Capture) ให้เห็นชื่อ บัญชีผู้ใช้
+                                    และเวลาไว้เป็นหลักฐาน</span>
+                            </span>
+                        </label>
+
+                        <label class="grid-option-label">
+                            <input type="radio" name="choice" value="B" form="dailyAnswerForm" required hidden>
+                            <span class="grid-option-btn">
+                                <span class="opt-key">B</span>
+                                <span class="opt-text">พิมพ์คอมเมนต์ด่าโต้ตอบทันทีเพื่อให้เขาหยุดพฤติกรรม</span>
+                            </span>
+                        </label>
+
+                        <label class="grid-option-label">
+                            <input type="radio" name="choice" value="C" form="dailyAnswerForm" required hidden>
+                            <span class="grid-option-btn">
+                                <span class="opt-key">C</span>
+                                <span class="opt-text">ลบบัญชีโซเชียลมีเดียของตัวเองทิ้งทันทีเพื่อหนีปัญหา</span>
+                            </span>
+                        </label>
+
+                        <label class="grid-option-label">
+                            <input type="radio" name="choice" value="D" form="dailyAnswerForm" required hidden>
+                            <span class="grid-option-btn">
+                                <span class="opt-key">D</span>
+                                <span class="opt-text">ปล่อยผ่านไป เพราะเป็นแค่เรื่องหยอกล้อกันในกลุ่มปิด</span>
+                            </span>
+                        </label>
+                    </div>
+
+                    <div class="daily-actions">
+                        <button class="btn-submit-daily" type="submit" form="dailyAnswerForm">ยืนยันคำตอบ</button>
+                    </div>
                 </div>
-            </header>
-            <section class="content-body">
-                <h1 class="page-title">ห้องสมุดคลังบทเรียน</h1>
-                <p class="page-subtitle">5 บทเรียนพร้อมสำหรับการเรียนรู้</p>
 
-                
 
-                <div class="video-grid">
-                    <article class="video-card">
-                        <div class="video-wrapper">
-                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="card-details">
-                            <span class="badge">ไซเบอร์บูลลี่</span>
-                            <h3 class="video-title">เข้าใจและป้องกันไซเบอร์บูลลี่</h3>
-                            <p class="video-description">เรียนรู้รูปแบบของการกลั่นแกล้งบนโลกออนไลน์
-                                และวิธีจัดการรับมืออย่างถูกวิธีเพื่อปกป้องตนเอง</p>
-                        </div>
-                    </article>
+                <div class="side-panel">
 
-                    <article class="video-card">
-                        <div class="video-wrapper">
-                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="card-details">
-                            <span class="badge">มารยาทดิจิทัล</span>
-                            <h3 class="video-title">ผลกระทบต่อจิตใจเหยื่อ</h3>
-                            <p class="video-description">ทำความเข้าใจความรู้สึกของผู้ที่ถูกกระทำ
-                                และการสร้างสภาพแวดล้อมเชิงบวกในโลกออนไลน์</p>
-                        </div>
-                    </article>
 
-                    <article class="video-card">
-                        <div class="video-wrapper">
-                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="card-details">
-                            <span class="badge">ความเป็นส่วนตัว</span>
-                            <h3 class="video-title">ความลับของคุณคืออะไร?</h3>
-                            <p class="video-description">การตั้งค่าความเป็นส่วนตัวบนแอปพลิเคชันหลัก
-                                และข้อควรระวังในการโพสต์ข้อมูลส่วนตัว</p>
-                        </div>
-                    </article>
 
-                    <article class="video-card">
-                        <div class="video-wrapper">
-                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="card-details">
-                            <span class="badge">ความเป็นส่วนตัว</span>
-                            <h3 class="video-title">ความลับของคุณคืออะไร?</h3>
-                            <p class="video-description">การตั้งค่าความเป็นส่วนตัวบนแอปพลิเคชันหลัก
-                                และข้อควรระวังในการโพสต์ข้อมูลส่วนตัว</p>
-                        </div>
-                    </article>
 
-                     <article class="video-card">
-                        <div class="video-wrapper">
-                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="card-details">
-                            <span class="badge">ความเป็นส่วนตัว</span>
-                            <h3 class="video-title">ความลับของคุณคืออะไร?</h3>
-                            <p class="video-description">การตั้งค่าความเป็นส่วนตัวบนแอปพลิเคชันหลัก
-                                และข้อควรระวังในการโพสต์ข้อมูลส่วนตัว</p>
-                        </div>
-                    </article>
+
+                    <div class="panel-card tip-box">
+                        <h4> Cyber Tip ประจำวัน</h4>
+                        <p>การแคปหน้าจอหลักฐาน Cyberbullying ควรให้ติด URL และเวลาที่เกิดเหตุชัดเจนที่สุด
+                            เพื่อนำไปใช้เป็นหลักฐานทางกฎหมายได้</p>
+                    </div>
 
                 </div>
-            </section>
+
+            </div>
 
         </main>
+    </div>
 
-    </div>
-    <div class="footer">
-        © 2026 Cyberbully & Awareness IT14
-    </div>
+    <footer class="footer">
+        <p>© 2026 Cyberbullying / Online Safety Awareness เว็บให้ความรู้วัยรุ่นเรื่องความปลอดภัยออนไลน์</p>
+    </footer>
 </body>
 
 </html>
