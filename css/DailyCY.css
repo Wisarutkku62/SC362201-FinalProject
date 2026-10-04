@@ -166,7 +166,6 @@ body {
     background-color: #f1f5f9;
 }
 
-/* ส่วนหัว Dashboard */
 .dashboard-header {
     display: flex;
     justify-content: space-between;
@@ -361,11 +360,12 @@ input[type="radio"]:checked + .grid-option-btn .opt-key {
 
 
 .footer {
-    color: #ffffff;
+    background-color: #1e293b;
+    color: #fff;
+    font-size: 18px;
+    padding: 16px;
     text-align: center;
-    padding: 20px;
-    background-color: #1e3a8a;
-    width: 100%;
+    font-weight: 500;
 }
 
 @media (max-width: 768px) {

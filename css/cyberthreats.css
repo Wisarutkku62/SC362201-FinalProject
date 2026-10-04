@@ -343,7 +343,7 @@ body {
 }
 
 .btn-report {
-    background-color: #f56200;
+    background-color: #F43F5E;
     color: #ffffff;
     text-decoration: none;
     font-size: 12px;
@@ -354,7 +354,7 @@ body {
 }
 
 .btn-report:hover {
-    background-color: #d85400;
+    background-color: #f72b4d;
 }
 .footer{
     background-color: #1e293b;

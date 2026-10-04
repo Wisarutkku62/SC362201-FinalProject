@@ -1,13 +1,8 @@
-/* =========================================
-   หน้า: คู่มือตั้งค่าความปลอดภัย
-   ใช้ร่วมกับ Testready.css (Sidebar / Footer)
-   ========================================= */
 
 html {
     scroll-behavior: smooth;
 }
 
-/* เนื้อหาหน้านี้เริ่มจากด้านบน */
 .content {
     align-items: flex-start;
     padding: 48px 32px;
@@ -19,7 +14,6 @@ html {
     margin: 0 auto;
 }
 
-/* หัวหน้า */
 .guide-head h1 {
     margin-bottom: 10px;
     color: #1e3a8a;
@@ -39,7 +33,6 @@ html {
     font-size: 13px;
 }
 
-/* ลิงก์ข้ามไปแต่ละแอป */
 .jump {
     display: flex;
     flex-wrap: wrap;
@@ -63,7 +56,6 @@ html {
     color: #ffffff;
 }
 
-/* ข้อควรรู้ก่อนเริ่ม */
 .before {
     margin-bottom: 28px;
     padding: 14px 18px;
@@ -74,7 +66,6 @@ html {
     line-height: 1.7;
 }
 
-/* แบ่งเนื้อหาเป็นสองคอลัมน์ */
 .guide-columns {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
@@ -89,7 +80,6 @@ html {
     min-width: 0;
 }
 
-/* กล่องรายการแอป */
 .apps {
     min-width: 0;
     overflow: hidden;
@@ -98,7 +88,6 @@ html {
     background-color: #ffffff;
 }
 
-/* แต่ละแอป */
 .row {
     display: flex;
     flex-direction: column;
@@ -152,7 +141,6 @@ html {
     font-size: 16px;
 }
 
-/* กล่องบอกเส้นทางเมนู */
 .path {
     display: inline-block;
     padding: 3px 10px;
@@ -169,7 +157,7 @@ html {
     line-height: 1.7;
 }
 
-/* เช็กลิสต์ */
+
 .checklist {
     margin-top: 0;
     padding: 22px 20px;

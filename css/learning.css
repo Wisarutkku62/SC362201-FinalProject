@@ -225,9 +225,9 @@
     line-height: 1.5;
 }
 
-.btn-orange {
+.btn-pink {
     align-self: flex-start;
-    background-color: #f56200;
+    background-color: #F43F5E;
     color: #ffffff;
     border: none;
     padding: 8px 20px;
@@ -240,7 +240,7 @@
 }
 
 .btn-orange:hover {
-    background-color: #d85400;
+    background-color: #f72b4d;
 }
 
 .footer{

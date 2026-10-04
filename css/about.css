@@ -166,147 +166,6 @@ body {
     border-radius: 50%;
 }
 
-.layout-container {
-    display: flex;
-    min-height: calc(100vh - 58px);
-}
-
-.sidebar {
-    position: sticky;
-    top: 0;
-    display: flex;
-    width: 270px;
-    height: 100vh;
-    flex: 0 0 270px;
-    flex-direction: column;
-    padding: 26px 18px 20px;
-    overflow-y: auto;
-    background: #102657;
-    color: #fff;
-}
-
-.logo-area {
-    padding: 0 10px 24px;
-}
-
-.logo-area .title {
-    display: block;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 700;
-    text-decoration: none;
-}
-
-.logo-area .subtitle {
-    margin: 7px 0 0;
-    color: #b9c9e8;
-    font-size: 12px;
-    line-height: 1.6;
-}
-
-.nav-menu>ul,
-.submenu-l2,
-.submenu-l3 {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.nav-menu>ul {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.nav-menu a {
-    display: block;
-    border-radius: 9px;
-    color: #e5edfb;
-    text-decoration: none;
-}
-
-.nav-menu>ul>li>a {
-    padding: 11px 12px;
-    font-size: 14px;
-}
-
-.nav-menu>ul>li>a:hover,
-.nav-menu>ul>li>a.active {
-    background: #29477f;
-    color: #fff;
-}
-
-.submenu-l2 {
-    padding: 3px 0 5px 12px;
-}
-
-.submenu-l2>li>a {
-    padding: 8px 10px;
-    color: #c8d5ed;
-    font-size: 13px;
-}
-
-.submenu-l3 {
-    padding: 2px 0 5px 10px;
-}
-
-.submenu-l2>li>a:hover,
-.submenu-l3 a:hover {
-    background: rgb(255 255 255 / 8%);
-}
-
-.submenu-l3 a {
-    padding: 8px 10px;
-}
-
-.submenu-l3 strong,
-.submenu-l3 span {
-    display: block;
-}
-
-.submenu-l3 strong {
-    color: #edf3ff;
-    font-size: 12px;
-}
-
-.submenu-l3 span {
-    margin-top: 3px;
-    color: #afc0df;
-    font-size: 11px;
-    line-height: 1.5;
-}
-
-.sidebar-footer {
-    margin-top: auto;
-    padding: 22px 8px 0;
-}
-
-.btn-contact {
-    display: block;
-    padding: 11px 14px;
-    border: 1px solid #7088b3;
-    border-radius: 10px;
-    color: #fff;
-    font-size: 13px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.btn-contact:hover {
-    background: #29477f;
-}
-
-.footer {
-    padding: 18px 24px;
-    background: #0b1c3b;
-    color: #cbd5e1;
-    font-size: 12px;
-    text-align: center;
-}
-
-.footer p {
-    margin: 0;
-}
 
 .content.about-page {
     display: flex;
@@ -522,6 +381,15 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     background-color: #ffffff;
     color: #252b40;
+}
+
+.footer {
+    background-color: #1e293b;
+    color: #fff;
+    font-size: 18px;
+    padding: 16px;
+    text-align: center;
+    font-weight: 500;
 }
 
 @media (max-width: 768px) {
