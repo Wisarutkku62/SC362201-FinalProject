@@ -277,3 +277,82 @@ body {
     text-align: center;
     font-weight: 500;
 }
+@media screen and (max-width: 768px) {
+    .layout-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 16px 20px;
+    }
+
+    .submenu-l2,
+    .submenu-l3 {
+        position: static;
+        width: 100%;
+        box-shadow: none;
+        background-color: rgba(255, 255, 255, 0.08);
+        border-radius: 8px;
+        margin-top: 6px;
+        padding: 6px;
+    }
+
+    .submenu-l2 a,
+    .submenu-l3 a,
+    .submenu-l3 strong {
+        color: #ffffff;
+    }
+
+    .submenu-l3 span {
+        color: #93c5fd;
+    }
+
+    .submenu-l2 a:hover,
+    .submenu-l3 a:hover {
+        background-color: rgba(255, 255, 255, 0.15);
+        color: #ffffff;
+    }
+
+    .main-content {
+        padding: 16px;
+    }
+
+    .content-body {
+        padding: 10px 0;
+    }
+
+    .topbar {
+        flex-direction: column-reverse;
+        align-items: stretch;
+        gap: 12px;
+    }
+
+    .search-box input {
+        width: 100%;
+    }
+
+    .user-avatar {
+        align-self: flex-end;
+    }
+
+    .category-container {
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 20px;
+    }
+
+    .chip {
+        padding: 6px 14px;
+        font-size: 12px;
+    }
+
+    .video-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .card-details {
+        padding: 14px 16px;
+    }
+}

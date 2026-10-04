@@ -164,13 +164,10 @@ body {
     font-weight: 500;
 }
 
-
-
 .parent-wrapper {
     max-width: 900px;
     margin: 0 auto;
 }
-
 
 .parent-header {
     background: linear-gradient(to right, #1e3a8a, #3b82f6);

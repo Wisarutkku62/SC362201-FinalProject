@@ -392,41 +392,88 @@ body {
     font-weight: 500;
 }
 
+
 @media (max-width: 768px) {
+
     .layout-container {
-        display: block;
+        flex-direction: column;
     }
 
     .sidebar {
-        position: relative;
         width: 100%;
-        height: auto;
-        max-height: none;
+        padding: 16px;
+    }
+
+    .submenu-l2,
+    .submenu-l3 {
+        position: static;
+        width: 100%;
+        box-shadow: none;
+        background: rgba(255, 255, 255, 0.05);
+        padding-left: 12px;
+        margin-top: 4px;
+    }
+
+    .submenu-l2 a,
+    .submenu-l3 a,
+    .submenu-l3 strong {
+        color: #bfdbfe;
+    }
+
+    .main-content {
+        padding: 16px;
+    }
+
+    .topbar {
+        flex-direction: column-reverse;
+        align-items: stretch;
+        gap: 12px;
+    }
+
+    .search-box input {
+        width: 100%;
     }
 
     .content.about-page {
-        padding: 25px 16px;
+        padding: 16px;
     }
 
     .about-hero {
-        padding: 22px 24px 35px;
+        padding: 20px 20px 32px;
     }
 
     .about-hero h1 {
-        font-size: 30px;
+        font-size: 26px;
+    }
+
+    .about-lead {
+        font-size: 13px;
     }
 
     .about-people-heading {
-        align-items: flex-start;
         flex-direction: column;
-        gap: 8px;
+        align-items: flex-start;
+        gap: 4px;
     }
 
     .about-profile-list {
         grid-template-columns: 1fr;
     }
 
-    .about-profile-second {
-        margin-top: 0;
+    .about-profile {
+        grid-template-columns: 1fr;
+    }
+
+    .about-profile-photo {
+        min-height: 200px;
+    }
+
+    .about-profile-photo img {
+        min-height: auto;
+        max-height: 250px;
+    }
+
+    .box-buttom {
+        width: 100%;
     }
 }

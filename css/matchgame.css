@@ -276,3 +276,84 @@
     text-align: center;
     font-weight: 500;
 }
+@media screen and (max-width: 768px) {
+    .layout-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 16px 20px;
+    }
+
+    .submenu-l2,
+    .submenu-l3 {
+        position: static;
+        width: 100%;
+        box-shadow: none;
+        background-color: rgba(255, 255, 255, 0.08);
+        border-radius: 8px;
+        margin-top: 6px;
+        padding: 6px;
+    }
+
+    .submenu-l2 a,
+    .submenu-l3 a,
+    .submenu-l3 strong {
+        color: #ffffff;
+    }
+
+    .submenu-l3 span {
+        color: #93c5fd;
+    }
+
+    .submenu-l2 a:hover,
+    .submenu-l3 a:hover {
+        background-color: rgba(255, 255, 255, 0.15);
+        color: #ffffff;
+    }
+
+    .main-content {
+        padding: 16px;
+    }
+
+    .topbar {
+        flex-direction: column-reverse;
+        align-items: stretch;
+        gap: 12px;
+    }
+
+    .search-box input {
+        width: 100%;
+    }
+
+    .user-avatar {
+        align-self: flex-end;
+    }
+
+    .page-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        margin-bottom: 20px;
+    }
+
+    .page-title h2 {
+        font-size: 20px;
+    }
+
+    .matching-container {
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .column-title {
+        font-size: 1.1rem;
+        margin-bottom: 12px;
+    }
+
+    .card-label {
+        padding: 14px 16px;
+    }
+}
