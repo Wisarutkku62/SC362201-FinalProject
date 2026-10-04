@@ -267,3 +267,12 @@ mark.hl-red {
 .btn-submit:hover {
     background-color: #1d4ed8;
 }
+
+.footer {
+    background-color: #1e293b;
+    color: #fff;
+    font-size: 18px;
+    padding: 16px;
+    text-align: center;
+    font-weight: 500;
+}
