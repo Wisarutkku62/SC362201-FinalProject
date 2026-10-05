@@ -466,11 +466,11 @@ body {
 
     .about-profile-photo {
         min-height: 200px;
+        overflow: hidden;
     }
 
     .about-profile-photo img {
-        min-height: auto;
-        max-height: 250px;
+        width: 100%;
     }
 
     .box-buttom {
