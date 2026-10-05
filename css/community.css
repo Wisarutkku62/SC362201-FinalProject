@@ -191,7 +191,7 @@ body {
     padding: 34px 42px;
     border: 1px solid #e5e5f4;
     border-radius: 24px;
-    background: linear-gradient(115deg, #5364ff 0%, #8f87ff 54%, #fff2eb 100%);
+    background: linear-gradient(115deg, #2563eb 0%, #1e3a8a 54%, #1e3a8a 100%);
 }
 
 .hero-copy {
