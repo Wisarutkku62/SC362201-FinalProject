@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #f8fafc;
-    color: #1e293b;
+    background-color: var(--color-page);
+    color: var(--color-text);
 }
 
 .layout-container {
@@ -16,7 +16,7 @@ body {
 
 .sidebar {
     width: 280px;
-    background-color: #1e3a8a;
+    background-color: var(--color-navy-deep);
     color: #ffffff;
     padding: 24px 20px;
     display: flex;
@@ -37,7 +37,7 @@ body {
 
 .subtitle {
     font-size: 12px;
-    color: #93c5fd;
+    color: #b9d0df;
     margin-top: 4px;
 }
 
@@ -52,7 +52,7 @@ body {
 
 .nav-menu a {
     display: block;
-    color: #bfdbfe;
+    color: #d7e5ee;
     text-decoration: none;
     padding: 10px 14px;
     border-radius: 10px;
@@ -63,7 +63,7 @@ body {
 .nav-menu a:hover,
 .nav-menu a.active {
     background-color: #ffffff;
-    color: #1e3a8a;
+    color: var(--color-teal);
     font-weight: 600;
 }
 
@@ -93,7 +93,7 @@ body {
 
 .submenu-l2 a,
 .submenu-l3 a {
-    color: #1e293b;
+    color: var(--color-text);
     font-weight: normal;
     padding: 8px 12px;
 }
@@ -101,19 +101,19 @@ body {
 .submenu-l2 a:hover,
 .submenu-l3 a:hover {
     background-color: #eff6ff;
-    color: #1e3a8a;
+    color: var(--color-teal);
 }
 
 .submenu-l3 strong {
     display: block;
     font-size: 13px;
-    color: #1e293b;
+    color: var(--color-text);
 }
 
 .submenu-l3 span {
     display: block;
     font-size: 11px;
-    color: #64748b;
+    color: var(--color-muted);
     font-weight: normal;
 }
 
@@ -125,7 +125,7 @@ body {
 .btn-contact {
     display: block;
     text-align: center;
-    border: 1px solid #60a5fa;
+    border: 1px solid #5cc8ba;
     color: #ffffff;
     text-decoration: none;
     padding: 10px;
@@ -157,12 +157,20 @@ body {
     border: 1px solid #cbd5e1;
     outline: none;
     font-size: 14px;
+    color: var(--color-text);
+    background-color: #ffffff;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-box input:focus {
+    border-color: var(--color-teal);
+    box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.14);
 }
 
 .user-avatar {
     width: 38px;
     height: 38px;
-    background-color: #1e3a8a;
+    background-color: var(--color-teal);
     border-radius: 50%;
 }
 
@@ -174,12 +182,12 @@ body {
 .page-title {
     font-size: 24px;
     font-weight: 600;
-    color: #1e293b;
+    color: var(--color-navy);
 }
 
 .page-subtitle {
     font-size: 13px;
-    color: #64748b;
+    color: var(--color-muted);
     margin-top: 4px;
     margin-bottom: 20px;
 }
@@ -195,7 +203,7 @@ body {
     border-radius: 20px;
     border: 1px solid #cbd5e1;
     background-color: #ffffff;
-    color: #475569;
+    color: var(--color-muted);
     font-size: 13px;
     cursor: pointer;
     transition: 0.2s;
@@ -203,9 +211,9 @@ body {
 
 .chip.active,
 .chip:hover {
-    background-color: #1b3a8b;
+    background-color: var(--color-teal);
     color: #ffffff;
-    border-color: #1b3a8b;
+    border-color: var(--color-teal);
 }
 
 .video-grid {
@@ -219,9 +227,16 @@ body {
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
-    border: 1px solid #e2e8f0;
+    border: 1px solid var(--color-border);
     display: flex;
     flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.video-card:hover {
+    transform: translateY(-3px);
+    border-color: #bfd8d8;
+    box-shadow: 0 12px 28px rgba(22, 50, 79, 0.1);
 }
 
 .video-wrapper {
@@ -247,8 +262,8 @@ body {
 .badge {
     align-self: flex-start;
     padding: 4px 10px;
-    background-color: #e0e7ff;
-    color: #1b3a8b;
+    background-color: var(--color-teal-soft);
+    color: var(--color-teal);
     font-size: 11px;
     font-weight: 500;
     border-radius: 6px;
@@ -258,19 +273,19 @@ body {
 .video-title {
     font-size: 16px;
     font-weight: 600;
-    color: #0f172a;
+    color: var(--color-navy-deep);
     margin-bottom: 8px;
     line-height: 1.4;
 }
 
 .video-description {
     font-size: 13px;
-    color: #64748b;
+    color: var(--color-muted);
     line-height: 1.5;
 }
 
 .footer {
-    background-color: #1e293b;
+    background-color: var(--color-navy-deep);
     color: #fff;
     font-size: 18px;
     padding: 16px;
