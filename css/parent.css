@@ -276,6 +276,10 @@ body {
 
 
 @media  (max-width: 768px) {
+    .layout-container {
+        flex-direction: column;
+    }
+
     .card-item {
         width: 100%;
         margin-right: 0;
