@@ -159,6 +159,7 @@
     background-color: #2352c5;
     color: #ffffff;
     padding: 60px 48px;
+    border-radius: 30px;
     position: relative;
 }
 
@@ -299,7 +300,7 @@
 
     .hero-banner {
         padding: 28px 20px;
-        border-radius: 12px;
+        border-radius: 30px;
     }
 
     .hero-title {
@@ -324,4 +325,3 @@
         text-align: center;
     }
 }
-

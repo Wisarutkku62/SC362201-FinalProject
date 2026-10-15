@@ -163,6 +163,7 @@ body {
 .banner {
     background: linear-gradient(135deg, #2563eb 0%, #1e3a8a 50%);
     padding: 32px;
+    border-radius: 30px;
     color: #ffffff;
     display: flex;
     justify-content: space-between;

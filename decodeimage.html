@@ -113,13 +113,15 @@
                     <input type="text" placeholder="ค้นหา...">
                 </div>
             </header>
-            <section class="game-header">
+            <section class="game-header decode-intro">
+                <span class="intro-kicker">DECODE CHALLENGE</span>
                 <h2 class="game-title">Decode Images ถอดรหัสภาพอันตราย</h2>
                 <p class="game-description">การเรียนรู้จะไม่น่าเบื่อ เมื่อปรับการเรียนรู้เป็นรูปแบบเกม</p>
+                <p class="intro-hint">สังเกตรายละเอียดในภาพ แล้วพิมพ์คำตอบของแต่ละด่านเพื่อฝึกทักษะการคิดวิเคราะห์</p>
             </section>
-            <main class="main-content">
+            <div class="challenge-grid">
                 <div class="card challenge-card">
-                    <span class="badge badge-blue">ด่านที่ 1 : ถอดรหัสภาพ</span>
+                    <span class="badge badge-blue">ด่านที่ 1</span>
                     <h2>วิเคราะห์และส่งคำตอบ</h2>
                     <p>โปรดพิจารณาภาพโจทย์ด้านล่าง แล้วพิมพ์คำตอบที่คุณถอดรหัสได้ลงในช่องข้อความ</p>
 
@@ -128,8 +130,8 @@
                     </div>
 
                     <form class="answer-form" action="#" method="post">
-                        <label for="userAnswer" class="form-label">คำตอบของคุณ:</label>
-                        <textarea id="userAnswer" name="answer" rows="4"
+                        <label for="answer-level-1" class="form-label">คำตอบของคุณ:</label>
+                        <textarea id="answer-level-1" name="answer" rows="4"
                             placeholder="พิมพ์ข้อความหรือคำตอบที่ถอดรหัสได้จากภาพที่นี่..."></textarea>
 
                         <button type="submit" class="btn-primary">ส่งคำตอบ</button>
@@ -137,7 +139,7 @@
                 </div>
 
                 <div class="card challenge-card">
-                    <span class="badge badge-blue">ด่านที่ 2 : ถอดรหัสภาพ</span>
+                    <span class="badge badge-blue">ด่านที่ 2</span>
                     <h2>วิเคราะห์และส่งคำตอบ</h2>
                     <p>โปรดพิจารณาภาพโจทย์ด้านล่าง แล้วพิมพ์คำตอบที่คุณถอดรหัสได้ลงในช่องข้อความ</p>
 
@@ -146,8 +148,8 @@
                     </div>
 
                     <form class="answer-form" action="#" method="post">
-                        <label for="userAnswer" class="form-label">คำตอบของคุณ:</label>
-                        <textarea id="userAnswer" name="answer" rows="4"
+                        <label for="answer-level-2" class="form-label">คำตอบของคุณ:</label>
+                        <textarea id="answer-level-2" name="answer" rows="4"
                             placeholder="พิมพ์ข้อความหรือคำตอบที่ถอดรหัสได้จากภาพที่นี่..."></textarea>
 
                         <button type="submit" class="btn-primary">ส่งคำตอบ</button>
@@ -155,7 +157,7 @@
                 </div>
 
                 <div class="card challenge-card">
-                    <span class="badge badge-blue">ด่านที่ 3 : ถอดรหัสภาพ</span>
+                    <span class="badge badge-blue">ด่านที่ 3</span>
                     <h2>วิเคราะห์และส่งคำตอบ</h2>
                     <p>โปรดพิจารณาภาพโจทย์ด้านล่าง แล้วพิมพ์คำตอบที่คุณถอดรหัสได้ลงในช่องข้อความ</p>
 
@@ -164,15 +166,15 @@
                     </div>
 
                     <form class="answer-form" action="#" method="post">
-                        <label for="userAnswer" class="form-label">คำตอบของคุณ:</label>
-                        <textarea id="userAnswer" name="answer" rows="4"
+                        <label for="answer-level-3" class="form-label">คำตอบของคุณ:</label>
+                        <textarea id="answer-level-3" name="answer" rows="4"
                             placeholder="พิมพ์ข้อความหรือคำตอบที่ถอดรหัสได้จากภาพที่นี่..."></textarea>
 
                         <button type="submit" class="btn-primary">ส่งคำตอบ</button>
                     </form>
                 </div>
-            </main>
-    </div>
+            </div>
+        </main>
     </div>
     <div class="footer">
         <p>&copy; 2026 Cyberbully & Awareness IT14</p>

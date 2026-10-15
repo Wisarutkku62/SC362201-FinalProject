@@ -210,6 +210,10 @@
     color: #ffffff;
 }
 
+main .card-featured .tag-dark {
+    color: #ffffff;
+}
+
 .card-title {
     font-size: 18px;
     font-weight: 700;
@@ -233,6 +237,11 @@
     display: inline-flex;
     align-items: center;
     gap: 4px;
+}
+
+main .card-quote > .btn-link:not(.light) {
+    background: transparent;
+    color: #1b3687;
 }
 
 .btn-link:hover {

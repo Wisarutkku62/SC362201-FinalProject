@@ -389,3 +389,19 @@ progress {
         color: #FDE68A;
     }
 }
+
+body,
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.layout-container {
+    flex: 1;
+}
+
+.footer {
+    flex-shrink: 0;
+    width: 100%;
+}
