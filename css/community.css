@@ -16,7 +16,7 @@ body {
 
 .sidebar {
     width: 280px;
-    background-color: #1e293b;
+    background-color: #1e3a8a;
     color: #ffffff;
     padding: 24px 20px;
     display: flex;
@@ -37,7 +37,7 @@ body {
 
 .subtitle {
     font-size: 12px;
-    color: #cbd5e1;
+    color: #93c5fd;
     margin-top: 4px;
 }
 
@@ -52,7 +52,7 @@ body {
 
 .nav-menu a {
     display: block;
-    color: #f1effb;
+    color: #bfdbfe;
     text-decoration: none;
     padding: 10px 14px;
     border-radius: 10px;
@@ -63,7 +63,7 @@ body {
 .nav-menu a:hover,
 .nav-menu a.active {
     background-color: #ffffff;
-    color: #1e293b;
+    color: #1e3a8a;
     font-weight: 600;
 }
 
@@ -100,8 +100,8 @@ body {
 
 .submenu-l2 a:hover,
 .submenu-l3 a:hover {
-    background-color: #f7f6fc;
-    color: #1e293b;
+    background-color: #eff6ff;
+    color: #1e3a8a;
 }
 
 .submenu-l3 strong {
@@ -125,7 +125,7 @@ body {
 .btn-contact {
     display: block;
     text-align: center;
-    border: 1px solid #c7c0ef;
+    border: 1px solid #60a5fa;
     color: #ffffff;
     text-decoration: none;
     padding: 10px;
@@ -162,7 +162,7 @@ body {
 .user-avatar {
     width: 38px;
     height: 38px;
-    background-color: #1e293b;
+    background-color: #1e3a8a;
     border-radius: 50%;
 }
 
@@ -191,7 +191,7 @@ body {
     padding: 34px 42px;
     border: 1px solid #e5e5f4;
     border-radius: 24px;
-    background: #1e293b;
+    background: linear-gradient(115deg, #2563eb 0%, #1e3a8a 54%, #1e3a8a 100%);
 }
 
 .hero-copy {
@@ -256,7 +256,7 @@ body {
     width: 125px;
     height: 125px;
     border-radius: 50%;
-    background: #ffe8b5;
+    background: linear-gradient(145deg, #ffe8b5, #ffd4c7);
 }
 
 .orbit {
@@ -323,7 +323,7 @@ body {
     gap: 15px;
     margin: 22px 0 34px;
     padding: 18px 22px;
-    border-left: 3px solid #6d5bd0;
+    border-left: 3px solid #1e3a8a;
     border-radius: 0 14px 14px 0;
     background: #fff;
 }
@@ -619,8 +619,8 @@ body {
 }
 
 .avatar-blue {
-    background: #f7f6fc;
-    color: #6d5bd0;
+    background: #edf3fb;
+    color: #6986ae;
 }
 
 .avatar-coral {

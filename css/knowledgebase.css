@@ -23,7 +23,7 @@ body {
 
 .sidebar {
     width: 280px;
-    background-color: #312e81;
+    background-color: #1e3a8a;
     color: #ffffff;
     padding: 24px 20px;
     display: flex;
@@ -44,7 +44,7 @@ body {
 
 .subtitle {
     font-size: 12px;
-    color: #a5b4fc;
+    color: #93c5fd;
     margin-top: 4px;
 }
 
@@ -59,7 +59,7 @@ body {
 
 .nav-menu a {
     display: block;
-    color: #c7d2fe;
+    color: #bfdbfe;
     text-decoration: none;
     padding: 10px 14px;
     border-radius: 10px;
@@ -70,7 +70,7 @@ body {
 .nav-menu a:hover,
 .nav-menu a.active {
     background-color: #ffffff;
-    color: #312e81;
+    color: #1e3a8a;
     font-weight: 600;
 }
 
@@ -107,8 +107,8 @@ body {
 
 .submenu-l2 a:hover,
 .submenu-l3 a:hover {
-    background-color: #eef2ff;
-    color: #312e81;
+    background-color: #eff6ff;
+    color: #1e3a8a;
 }
 
 .submenu-l3 strong {
@@ -132,7 +132,7 @@ body {
 .btn-contact {
     display: block;
     text-align: center;
-    border: 1px solid #818cf8;
+    border: 1px solid #60a5fa;
     color: #ffffff;
     text-decoration: none;
     padding: 10px;
@@ -169,7 +169,7 @@ body {
 .user-avatar {
     width: 38px;
     height: 38px;
-    background-color: #312e81;
+    background-color: #1e3a8a;
     border-radius: 50%;
 }
 
@@ -220,7 +220,7 @@ body {
 }
 
 .portal-blue {
-    border-left-color: #6d5bd0;
+    border-left-color: #1b3378;
 }
 
 .portal-orange {
@@ -262,7 +262,7 @@ body {
     display: inline-flex;
     align-items: center;
     padding: 10px 20px;
-    background-color: #6d5bd0;
+    background-color: #1b3378;
     color: #ffffff;
     text-decoration: none;
     font-size: 14px;
@@ -319,7 +319,7 @@ body {
     }
 
     .submenu-l3 span {
-        color: #a5b4fc;
+        color: #93c5fd;
     }
 
     .submenu-l2 a:hover,

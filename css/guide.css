@@ -16,7 +16,7 @@ html {
 
 .guide-head h1 {
     margin-bottom: 10px;
-    color: #1e293b;
+    color: #1e3a8a;
     font-size: 30px;
 }
 
@@ -45,23 +45,23 @@ html {
     border: 1px solid #cbd5e1;
     border-radius: 999px;
     background-color: #ffffff;
-    color: #1e293b;
+    color: #1e3a8a;
     font-size: 14px;
     text-decoration: none;
 }
 
 .jump a:hover {
-    border-color: #6d5bd0;
-    background-color: #6d5bd0;
+    border-color: #1e3a8a;
+    background-color: #1e3a8a;
     color: #ffffff;
 }
 
 .before {
     margin-bottom: 28px;
     padding: 14px 18px;
-    border-left: 4px solid #6d5bd0;
+    border-left: 4px solid #1e3a8a;
     border-radius: 0 10px 10px 0;
-    background-color: #f7f6fc;
+    background-color: #eff6ff;
     font-size: 14px;
     line-height: 1.7;
 }
@@ -106,7 +106,7 @@ html {
 }
 
 .row-head h2 {
-    color: #1e293b;
+    color: #1e3a8a;
     font-size: 22px;
 }
 
@@ -131,7 +131,7 @@ html {
 }
 
 .row-body li::marker {
-    color: #6d5bd0;
+    color: #1e3a8a;
     font-weight: 700;
 }
 
@@ -145,8 +145,8 @@ html {
     display: inline-block;
     padding: 3px 10px;
     border-radius: 6px;
-    background-color: #f7f6fc;
-    color: #6d5bd0;
+    background-color: #eff6ff;
+    color: #1e3a8a;
     font-size: 13px;
 }
 
@@ -168,7 +168,7 @@ html {
 }
 
 .checklist h2 {
-    color: #1e293b;
+    color: #1e3a8a;
     font-size: 20px;
 }
 
@@ -195,7 +195,7 @@ html {
     height: 18px;
     flex: 0 0 18px;
     margin-top: 3px;
-    accent-color: #6d5bd0;
+    accent-color: #1e3a8a;
     cursor: pointer;
 }
 

@@ -16,7 +16,7 @@ body {
 
 .sidebar {
     width: 280px;
-    background-color: #1e293b;
+    background-color: #1e3a8a;
     color: #ffffff;
     padding: 24px 20px;
     display: flex;
@@ -37,7 +37,7 @@ body {
 
 .subtitle {
     font-size: 12px;
-    color: #cbd5e1;
+    color: #93c5fd;
     margin-top: 4px;
 }
 
@@ -52,7 +52,7 @@ body {
 
 .nav-menu a {
     display: block;
-    color: #f1effb;
+    color: #bfdbfe;
     text-decoration: none;
     padding: 10px 14px;
     border-radius: 10px;
@@ -63,7 +63,7 @@ body {
 .nav-menu a:hover,
 .nav-menu a.active {
     background-color: #ffffff;
-    color: #1e293b;
+    color: #1e3a8a;
     font-weight: 600;
 }
 
@@ -100,8 +100,8 @@ body {
 
 .submenu-l2 a:hover,
 .submenu-l3 a:hover {
-    background-color: #f7f6fc;
-    color: #1e293b;
+    background-color: #eff6ff;
+    color: #1e3a8a;
 }
 
 .submenu-l3 strong {
@@ -125,7 +125,7 @@ body {
 .btn-contact {
     display: block;
     text-align: center;
-    border: 1px solid #c7c0ef;
+    border: 1px solid #60a5fa;
     color: #ffffff;
     text-decoration: none;
     padding: 10px;
@@ -162,7 +162,7 @@ body {
 .user-avatar {
     width: 38px;
     height: 38px;
-    background-color: #1e293b;
+    background-color: #1e3a8a;
     border-radius: 50%;
 }
 
@@ -172,7 +172,7 @@ body {
     flex: 1;
     align-items: flex-start;
     padding: 40px 32px;
-    background: #f6f8fc;
+    background: radial-gradient(ellipse at 15% 0%, #e9f3ff 0, transparent 38%), #f6f8fc;
 }
 
 .consult {
@@ -191,7 +191,7 @@ body {
 
 .eyebrow,
 .panel-kicker {
-    color: #6d5bd0;
+    color: #5573b8;
     font-size: 13px;
     font-weight: 700;
     letter-spacing: .03em;
@@ -199,7 +199,7 @@ body {
 
 .consult-heading h1 {
     margin: 5px 0 6px;
-    color: #1e293b;
+    color: #1e3a8a;
     font-size: 32px;
 }
 
@@ -244,7 +244,7 @@ body {
     border: 1px solid #e2e8f0;
     border-radius: 18px;
     background: #fff;
-    box-shadow: 0 10px 30px rgb(15 23 42 / 5%);
+    box-shadow: 0 10px 30px rgb(30 58 138 / 5%);
 }
 
 .chat-card {
@@ -266,8 +266,8 @@ body {
     flex: 0 0 auto;
     place-items: center;
     border-radius: 50%;
-    background: #f1effb;
-    color: #6d5bd0;
+    background: #eaf1ff;
+    color: #3456a4;
     font-size: 21px;
 }
 
@@ -291,8 +291,8 @@ body {
     margin-left: auto;
     padding: 6px 10px;
     border-radius: 999px;
-    background: #f7f6fc;
-    color: #6d5bd0;
+    background: #f1f5ff;
+    color: #3456a4;
     font-size: 12px;
     white-space: nowrap;
 }
@@ -303,7 +303,7 @@ body {
     flex-direction: column;
     gap: 22px;
     padding: 24px;
-    background: #fbfcff;
+    background: radial-gradient(#dce6f5 .7px, transparent .7px) 0 0 / 18px 18px, #fbfcff;
 }
 
 .chat-date {
@@ -362,9 +362,9 @@ body {
 }
 
 .message-you .message-content p {
-    border-color: #d9d4f2;
+    border-color: #dbe7ff;
     border-radius: 15px 15px 4px 15px;
-    background: #f1effb;
+    background: #eaf1ff;
 }
 
 .message-content time {
@@ -404,7 +404,7 @@ body {
 }
 
 .chat-compose textarea:focus-visible {
-    outline: 2px solid #c7c0ef;
+    outline: 2px solid #9bb5f1;
     outline-offset: 2px;
     border-radius: 5px;
 }
@@ -417,7 +417,7 @@ body {
     padding: 11px 16px;
     border: 0;
     border-radius: 10px;
-    background: #6d5bd0;
+    background: #1e3a8a;
     color: #fff;
     font: inherit;
     font-size: 14px;
@@ -425,7 +425,7 @@ body {
 }
 
 .chat-compose button:hover {
-    background: #5b4bb7;
+    background: #274aa8;
 }
 
 .chat-note {
@@ -452,7 +452,7 @@ body {
 .privacy-card h2,
 .urgent-card h2 {
     margin: 7px 0;
-    color: #1e293b;
+    color: #1e3a8a;
     font-size: 17px;
 }
 
@@ -488,13 +488,13 @@ body {
 
 .topic-list button:hover,
 .topic-list button:focus-visible {
-    border-color: #c7c0ef;
-    background: #f7f6fc;
+    border-color: #9bb5f1;
+    background: #f5f8ff;
     outline: none;
 }
 
 .privacy-card {
-    background: #f7f6fc;
+    background: #f2f7ff;
 }
 
 .privacy-icon {
@@ -504,7 +504,7 @@ body {
     place-items: center;
     border-radius: 11px;
     background: #fff;
-    color: #6d5bd0;
+    color: #4568b5;
     font-size: 18px;
 }
 
