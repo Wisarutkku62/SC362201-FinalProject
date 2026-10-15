@@ -232,6 +232,11 @@ body {
     box-shadow: 0 5px 16px rgb(63 54 124 / 8%);
 }
 
+.people-hero .hero-link,
+.people-hero .hero-link span {
+    color: #ffffff;
+}
+
 .hero-link:hover {
     background: #f9f7ff;
 }
