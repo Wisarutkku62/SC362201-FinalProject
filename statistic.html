@@ -183,19 +183,31 @@
                     </div>
 
                     <div class="doughnut-container">
-                        <div class="css-doughnut">
-                            <div class="doughnut-center">
-                                <strong>100%</strong>
-                                <span>รวมสัดส่วน</span>
-                            </div>
-                        </div>
+                        <svg class="css-doughnut" viewBox="0 0 150 150" role="img"
+                            aria-label="สัดส่วนเหตุการณ์: Facebook 38%, X 27%, TikTok 18%, Instagram 12%, LINE และอื่นๆ 5%">
+                            <g transform="rotate(-90 75 75)" fill="none" stroke-width="30">
+                                <circle cx="75" cy="75" r="60" stroke="#6d5bd0"
+                                    stroke-dasharray="143.26 233.73" />
+                                <circle cx="75" cy="75" r="60" stroke="#51488c"
+                                    stroke-dasharray="101.79 275.20" stroke-dashoffset="-143.26" />
+                                <circle cx="75" cy="75" r="60" stroke="#8172d9"
+                                    stroke-dasharray="67.86 309.13" stroke-dashoffset="-245.05" />
+                                <circle cx="75" cy="75" r="60" stroke="#a99fe5"
+                                    stroke-dasharray="45.24 331.75" stroke-dashoffset="-312.91" />
+                                <circle cx="75" cy="75" r="60" stroke="#c7c0ef"
+                                    stroke-dasharray="18.85 358.14" stroke-dashoffset="-358.15" />
+                            </g>
+                            <circle class="doughnut-center" cx="75" cy="75" r="45" />
+                            <text class="doughnut-total" x="75" y="73">100%</text>
+                            <text class="doughnut-label" x="75" y="89">รวมสัดส่วน</text>
+                        </svg>
 
                         <ul class="chart-legend">
-                            <li><span class="dot" style="background:#1877f2;"></span> Facebook (38%)</li>
-                            <li><span class="dot" style="background:#000000;"></span> X / Twitter (27%)</li>
-                            <li><span class="dot" style="background:#ee1d52;"></span> TikTok (18%)</li>
-                            <li><span class="dot" style="background:#e1306c;"></span> Instagram (12%)</li>
-                            <li><span class="dot" style="background:#06c755;"></span> LINE / อื่นๆ (5%)</li>
+                            <li><span class="dot" style="background:#6d5bd0;"></span> Facebook (38%)</li>
+                            <li><span class="dot" style="background:#51488c;"></span> X / Twitter (27%)</li>
+                            <li><span class="dot" style="background:#8172d9;"></span> TikTok (18%)</li>
+                            <li><span class="dot" style="background:#a99fe5;"></span> Instagram (12%)</li>
+                            <li><span class="dot" style="background:#c7c0ef;"></span> LINE / อื่นๆ (5%)</li>
                         </ul>
                     </div>
                 </section>

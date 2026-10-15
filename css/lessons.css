@@ -1,3 +1,14 @@
+:root {
+    --color-page: #f8fafc;
+    --color-text: #334155;
+    --color-navy-deep: #1e293b;
+    --color-navy: #1e293b;
+    --color-muted: #64748b;
+    --color-border: #e2e8f0;
+    --color-accent: #6d5bd0;
+    --color-accent-soft: #f1effb;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -63,7 +74,7 @@ body {
 .nav-menu a:hover,
 .nav-menu a.active {
     background-color: #ffffff;
-    color: var(--color-teal);
+    color: var(--color-accent);
     font-weight: 600;
 }
 
@@ -100,8 +111,8 @@ body {
 
 .submenu-l2 a:hover,
 .submenu-l3 a:hover {
-    background-color: #eff6ff;
-    color: var(--color-teal);
+    background-color: #eef2ff;
+    color: var(--color-accent);
 }
 
 .submenu-l3 strong {
@@ -125,7 +136,7 @@ body {
 .btn-contact {
     display: block;
     text-align: center;
-    border: 1px solid #5cc8ba;
+    border: 1px solid #c7c0ef;
     color: #ffffff;
     text-decoration: none;
     padding: 10px;
@@ -163,14 +174,14 @@ body {
 }
 
 .search-box input:focus {
-    border-color: var(--color-teal);
-    box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.14);
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 3px rgba(109, 91, 208, 0.14);
 }
 
 .user-avatar {
     width: 38px;
     height: 38px;
-    background-color: var(--color-teal);
+    background-color: var(--color-accent);
     border-radius: 50%;
 }
 
@@ -211,9 +222,9 @@ body {
 
 .chip.active,
 .chip:hover {
-    background-color: var(--color-teal);
+    background-color: var(--color-accent);
     color: #ffffff;
-    border-color: var(--color-teal);
+    border-color: var(--color-accent);
 }
 
 .video-grid {
@@ -235,7 +246,7 @@ body {
 
 .video-card:hover {
     transform: translateY(-3px);
-    border-color: #bfd8d8;
+    border-color: #d9d4f2;
     box-shadow: 0 12px 28px rgba(22, 50, 79, 0.1);
 }
 
@@ -262,8 +273,8 @@ body {
 .badge {
     align-self: flex-start;
     padding: 4px 10px;
-    background-color: var(--color-teal-soft);
-    color: var(--color-teal);
+    background-color: var(--color-accent-soft);
+    color: var(--color-accent);
     font-size: 11px;
     font-weight: 500;
     border-radius: 6px;
@@ -320,7 +331,7 @@ body {
     }
 
     .submenu-l3 span {
-        color: #93c5fd;
+        color: #a5b4fc;
     }
 
     .submenu-l2 a:hover,

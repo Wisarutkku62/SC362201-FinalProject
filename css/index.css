@@ -16,7 +16,7 @@ body {
 
 .sidebar {
     width: 280px;
-    background-color: #1e3a8a;
+    background-color: #312e81;
     color: #ffffff;
     padding: 24px 20px;
     display: flex;
@@ -37,7 +37,7 @@ body {
 
 .subtitle {
     font-size: 12px;
-    color: #93c5fd;
+    color: #a5b4fc;
     margin-top: 4px;
 }
 
@@ -52,7 +52,7 @@ body {
 
 .nav-menu a {
     display: block;
-    color: #bfdbfe;
+    color: #c7d2fe;
     text-decoration: none;
     padding: 10px 14px;
     border-radius: 10px;
@@ -63,7 +63,7 @@ body {
 .nav-menu a:hover,
 .nav-menu a.active {
     background-color: #ffffff;
-    color: #1e3a8a;
+    color: #312e81;
     font-weight: 600;
 }
 
@@ -100,8 +100,8 @@ body {
 
 .submenu-l2 a:hover,
 .submenu-l3 a:hover {
-    background-color: #eff6ff;
-    color: #1e3a8a;
+    background-color: #eef2ff;
+    color: #312e81;
 }
 
 .submenu-l3 strong {
@@ -125,7 +125,7 @@ body {
 .btn-contact {
     display: block;
     text-align: center;
-    border: 1px solid #60a5fa;
+    border: 1px solid #818cf8;
     color: #ffffff;
     text-decoration: none;
     padding: 10px;
@@ -162,12 +162,12 @@ body {
 .user-avatar {
     width: 38px;
     height: 38px;
-    background-color: #1e3a8a;
+    background-color: #312e81;
     border-radius: 50%;
 }
 
 .banner {
-    background: linear-gradient(135deg, #2563eb 0%, #1e3a8a 50%);
+    background: #1e293b;
     padding: 32px;
     color: #ffffff;
     display: flex;
@@ -219,7 +219,7 @@ body {
 
 .btn-secondary {
     background-color: #ffffff;
-    color: #1e3a8a;
+    color: #312e81;
 }
 
 .btn-primary:hover,
@@ -230,7 +230,7 @@ body {
 
 
 .progress-card {
-    background: rgba(255, 255, 255, 0.12);
+    background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     padding: 20px;
@@ -286,7 +286,7 @@ body {
 
 .section-title {
     font-size: 18px;
-    color: #1e3a8a;
+    color: #312e81;
 }
 
 .section-subtitle {
@@ -295,7 +295,7 @@ body {
 }
 
 .link-all {
-    color: #2563eb;
+    color: #6d5bd0;
     text-decoration: none;
     font-size: 13px;
     font-weight: 600;
@@ -316,8 +316,8 @@ body {
 
 .card-category {
     display: inline-block;
-    background: #dbeafe;
-    color: #1e40af;
+    background: #f1effb;
+    color: #6d5bd0;
     font-size: 11px;
     font-weight: 600;
     padding: 3px 8px;
@@ -431,7 +431,7 @@ body {
     }
 
     .submenu-l3 span {
-        color: #93c5fd;
+        color: #a5b4fc;
     }
 
     .submenu-l2 a:hover,
