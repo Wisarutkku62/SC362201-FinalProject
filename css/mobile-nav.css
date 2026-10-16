@@ -52,6 +52,7 @@
         width: 20px;
         height: 2px;
         background: currentColor;
+        transition: transform 0.2s ease, opacity 0.2s ease;
     }
 
     .sidebar .mobile-nav-checkbox~.nav-menu {
@@ -65,13 +66,25 @@
         overflow-y: auto;
     }
 
+    .mobile-nav-checkbox:checked+.mobile-nav-toggle span:first-child {
+        transform: translateY(7px) rotate(45deg);
+    }
+
+    .mobile-nav-checkbox:checked+.mobile-nav-toggle span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .mobile-nav-checkbox:checked+.mobile-nav-toggle span:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
+    }
+
     .sidebar .nav-menu>ul {
         display: block;
     }
 
     .sidebar .nav-menu .submenu-l2,
     .sidebar .nav-menu .submenu-l3 {
-        display: block;
+        display: none;
         position: static;
         width: 100%;
         margin: 0;
@@ -79,6 +92,15 @@
         border-radius: 0;
         background: none;
         box-shadow: none;
+    }
+
+    .sidebar .nav-menu .dropdown:hover>.submenu-l2,
+    .sidebar .nav-menu .dropdown:focus-within>.submenu-l2,
+    .sidebar .nav-menu .dropdown.is-expanded>.submenu-l2,
+    .sidebar .nav-menu .dropdown-l2:hover>.submenu-l3,
+    .sidebar .nav-menu .dropdown-l2:focus-within>.submenu-l3,
+    .sidebar .nav-menu .dropdown-l2.is-expanded>.submenu-l3 {
+        display: block;
     }
 
     .sidebar .mobile-nav-checkbox~.sidebar-footer {
