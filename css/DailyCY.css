@@ -473,3 +473,126 @@ input[type="radio"]:checked + .grid-option-btn .opt-key {
         line-height: 1.6;
     }
 }
+
+.content.daily-dashboard {
+    padding: 24px clamp(18px, 3vw, 36px);
+    background: radial-gradient(ellipse at 92% 0%, #e5eefb 0, transparent 32%), #f1f5f9;
+}
+
+.dashboard-header {
+    margin-bottom: 18px;
+}
+
+.dashboard-grid {
+    gap: 18px;
+}
+
+.main-quiz-box {
+    padding: 26px;
+    border-color: #dce5f1;
+    box-shadow: 0 10px 26px rgb(30 58 138 / 6%);
+}
+
+.options-grid {
+    gap: 11px;
+    margin-bottom: 18px;
+}
+
+.grid-option-btn {
+    min-height: 66px;
+    padding: 13px 14px;
+    border-color: #dce5f1;
+}
+
+.panel-card {
+    box-shadow: 0 8px 20px rgb(30 58 138 / 5%);
+}
+
+.tip-box {
+    border-left: 4px solid #f1bc58;
+}
+
+@media (max-width: 768px) {
+    .content.daily-dashboard {
+        padding: 22px 16px;
+    }
+
+    .main-quiz-box {
+        padding: 20px 16px;
+    }
+}
+
+
+.content.daily-dashboard {
+    min-height: calc(100vh - 72px);
+}
+
+.main-quiz-box {
+    min-height: 470px;
+}
+
+.support-reminder {
+    display: block;
+    padding: 17px 18px;
+    border: 1px solid #dbe7f6;
+    border-left: 4px solid #3b82f6;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #fff, #f1f6ff);
+    color: #475569;
+    font-size: 13px;
+    line-height: 1.7;
+    box-shadow: 0 8px 20px rgb(30 58 138 / 5%);
+}
+
+@media (max-width: 768px) {
+    .content.daily-dashboard {
+        min-height: 0;
+    }
+
+    .main-quiz-box {
+        min-height: 0;
+    }
+
+    .support-reminder {
+        margin-top: 12px;
+    }
+}
+
+.support-reminder {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.support-reminder p {
+    margin: 0;
+}
+
+.support-reminder-icon {
+    display: grid;
+    width: 28px;
+    height: 28px;
+    flex: 0 0 28px;
+    place-items: center;
+    border-radius: 9px;
+    background: #e5efff;
+    color: #3564b8;
+}
+
+@media (max-width: 768px) {
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .side-panel {
+        grid-column: 1;
+        grid-row: auto;
+    }
+
+    .support-reminder {
+        width: 100%;
+        margin-top: 12px;
+    }
+}

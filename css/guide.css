@@ -226,3 +226,28 @@ html {
         grid-template-columns: 1fr;
     }
 }
+.content {
+    display: block;
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 34px clamp(24px, 3vw, 52px);
+    border: 0;
+    background: radial-gradient(ellipse at 85% 0%, #eaf1fb 0, transparent 34%), #f7f9fc;
+}
+
+.guide {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+}
+
+.guide-columns {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex: 1 1 auto;
+        padding: 24px 16px;
+    }
+}

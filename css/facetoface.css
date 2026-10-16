@@ -148,7 +148,6 @@ body {
 .main-content {
     flex-grow: 1;
     padding: 24px 36px;
-    overflow-y: auto;
 }
 
 .topbar {
@@ -469,5 +468,66 @@ body {
 
     .face-aftercare a {
         align-self: flex-start;
+    }
+}
+
+.main-content {
+    padding: 28px 30px;
+    background: radial-gradient(ellipse at 8% 0%, #eaf1fb 0, transparent 34%), #f7f9fc;
+}
+
+.content.face-page {
+    max-width: 1240px;
+}
+
+.face-hero {
+    border: 1px solid #dbe5f2;
+    border-left: 5px solid #1e3a8a;
+    border-radius: 0 16px 16px 0;
+    box-shadow: 0 8px 24px rgb(30 58 138 / 6%);
+}
+
+.face-main-layout {
+    gap: 22px;
+}
+
+.face-step {
+    padding: 13px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #e2e8f0;
+    border-radius: 13px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgb(30 58 138 / 3%);
+}
+
+.face-step:last-child {
+    margin-bottom: 0;
+}
+
+.face-step-number {
+    border-color: #d7e2f2;
+    background: #eff6ff;
+    color: #1e3a8a;
+    font-weight: 700;
+}
+
+.face-note-card,
+.face-urgent-note {
+    box-shadow: 0 5px 16px rgb(30 58 138 / 4%);
+}
+
+.face-aftercare {
+    border: 1px solid #dce5f1;
+    border-radius: 13px;
+    background: #fff;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        padding: 20px 16px;
+    }
+
+    .face-step {
+        padding: 12px;
     }
 }

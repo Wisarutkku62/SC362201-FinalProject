@@ -285,15 +285,15 @@
     height: 150px;
     border-radius: 50%;
     background: conic-gradient(#1877f2 0% 38%,
-            /* Facebook 38% */
+            
             #000000 38% 65%,
-            /* X 27% */
+            
             #ee1d52 65% 83%,
-            /* TikTok 18% */
+            
             #e1306c 83% 95%,
-            /* Instagram 12% */
+            
             #06c755 95% 100%
-            /* LINE 5% */
+            
         );
     display: flex;
     align-items: center;

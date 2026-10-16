@@ -452,3 +452,17 @@ html, body {
         padding: 16px;
     }
 }
+.content {
+    max-width: 1200px;
+}
+
+.progress-card {
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.progress-bar {
+    width: 100%;
+}
