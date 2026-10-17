@@ -172,7 +172,7 @@
     margin: 0;
 }
 
-.comparison-tip {
+.game-instructions {
     margin: 0 0 20px;
     padding: 12px 16px;
     border-left: 3px solid #a16207;
@@ -419,29 +419,82 @@
     }
 
     .category-grid {
-        grid-template-columns: 1fr;
-        gap: 16px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
     }
 
     .app-card {
-        padding: 18px;
+        padding: 10px;
+    }
+
+    .card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+        margin-bottom: 12px;
+    }
+
+    .badge {
+        padding: 3px 7px;
+        font-size: 11px;
+    }
+
+    .store-type {
+        font-size: 10px;
+        overflow-wrap: anywhere;
+    }
+
+    .app-profile {
+        flex-direction: column;
+        gap: 8px;
+        padding-bottom: 10px;
     }
 
     .pic {
-        width: 90px;
-        height: 90px;
-        border-radius: 20px;
+        width: 56px;
+        height: 56px;
+        border-radius: 14px;
     }
 
     .app-title {
-        font-size: 15px;
+        font-size: 13px;
+        overflow-wrap: anywhere;
+    }
+
+    .app-developer {
+        font-size: 10px;
+        overflow-wrap: anywhere;
+    }
+
+    .app-stats {
+        font-size: 10px;
+        overflow-wrap: anywhere;
+    }
+
+    .app-details {
+        padding: 10px 0;
+        gap: 8px;
     }
 
     .detail-row {
-        font-size: 12px;
+        flex-direction: column;
+        gap: 2px;
+        font-size: 10px;
+    }
+
+    .detail-label,
+    .detail-value {
+        width: 100%;
+        text-align: left;
     }
 
     .card-actions {
-        flex-direction: column;
+        margin-top: 8px;
+        padding-top: 10px;
+    }
+
+    .btn {
+        padding: 8px 4px;
+        font-size: 10px;
     }
 }
