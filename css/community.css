@@ -194,9 +194,15 @@ body {
     max-width: 610px;
 }
 
-.eyebrow,
-.section-kicker {
+.eyebrow {
     color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .04em;
+}
+
+.section-kicker {
+    color: #343b5b;
     font-size: 13px;
     font-weight: 700;
     letter-spacing: .04em;
