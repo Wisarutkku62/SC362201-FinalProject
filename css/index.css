@@ -353,6 +353,18 @@ body {
     border-radius: 16px 16px 0 0;
 }
 
+.task-grid .task-card,
+.journey-grid .task-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.task-grid .task-card:hover,
+.journey-grid .task-card:hover {
+    transform: translateY(-5px);
+    border-color: #93c5fd;
+    box-shadow: 0 12px 24px rgba(30, 58, 138, 0.12);
+}
+
 
 .btn-sm {
     padding: 6px 12px;
