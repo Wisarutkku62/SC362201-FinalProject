@@ -1,7 +1,7 @@
+# โปรเจกต์รายวิชา Web Design Technology SC362201
+
 # IT14 Cyberbully & Awareness
 เว็บแอปพลิเคชันเพื่อการเรียนรู้และสร้างความตระหนักรู้ด้านความปลอดภัยทางไซเบอร์ (Cybersecurity Awareness Platform) พัฒนาด้วยเทคโนโลยี Frontend (HTML5, CSS3, JavaScript)
-
-# โปรเจกต์รายวิชา Web Design Technology SC362201
 
 # จัดทำโดย
 | รหัสนักศึกษา | ชื่อ-สกุล | สาขา | 
