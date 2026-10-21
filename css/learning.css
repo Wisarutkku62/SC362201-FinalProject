@@ -207,6 +207,15 @@
     border: 1px solid #eaedf3;
 }
 
+.learning-card-image {
+    display: block;
+    width: calc(100% + 48px);
+    height: 150px;
+    margin: -24px -24px 4px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+
 .card-title {
     font-size: 18px;
     font-weight: 600;
@@ -318,6 +327,11 @@
 
     .card {
         padding: 16px;
+    }
+
+    .learning-card-image {
+        width: calc(100% + 32px);
+        margin: -16px -16px 4px;
     }
 
     .btn-pink {

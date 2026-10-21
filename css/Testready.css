@@ -225,7 +225,7 @@ body {
 .progress-fill {
     width: 20%;
     height: 100%;
-    background-color: #008075;
+    background-color: #d4a017;
     border-radius: 10px;
     transition: width 0.3s ease;
 }
@@ -233,7 +233,7 @@ body {
 .progress-fill1 {
     width: 40%;
     height: 100%;
-    background-color: #008075;
+    background-color: #d4a017;
     border-radius: 10px;
     transition: width 0.3s ease;
 }
@@ -241,7 +241,7 @@ body {
 .progress-fill2 {
     width: 60%;
     height: 100%;
-    background-color: #008075;
+    background-color: #d4a017;
     border-radius: 10px;
     transition: width 0.3s ease;
 }
@@ -249,7 +249,7 @@ body {
 .progress-fill3 {
     width: 80%;
     height: 100%;
-    background-color: #008075;
+    background-color: #d4a017;
     border-radius: 10px;
     transition: width 0.3s ease;
 }
@@ -257,7 +257,7 @@ body {
 .progress-fill4 {
     width: 100%;
     height: 100%;
-    background-color: #008075;
+    background-color: #d4a017;
     border-radius: 10px;
     transition: width 0.3s ease;
 }
@@ -505,4 +505,3 @@ input[type="radio"]:checked+.option-btn {
         font-size: 12px;
     }
 }
-

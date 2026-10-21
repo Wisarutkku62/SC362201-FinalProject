@@ -188,6 +188,15 @@
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.term-card-image {
+    display: block;
+    width: 100%;
+    height: 156px;
+    margin-bottom: 14px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
 .card:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 25px rgba(27, 54, 135, 0.06);
@@ -267,6 +276,10 @@ main .card-quote > .btn-link:not(.light) {
 .card-featured .card-title {
     font-size: 22px;
     color: #ffffff;
+}
+
+.card-featured .term-card-image {
+    height: 136px;
 }
 
 .card-featured .analogy-text {
@@ -370,6 +383,14 @@ main .card-quote > .btn-link:not(.light) {
         grid-column: span 1;
         grid-template-columns: 1fr;
         gap: 16px;
+    }
+
+    .term-card-image {
+        height: 140px;
+    }
+
+    .card-featured .term-card-image {
+        height: 140px;
     }
 
     .card-featured .tech-info {

@@ -200,6 +200,15 @@
     min-height: 190px;
 }
 
+.game-card-image {
+    display: block;
+    width: calc(100% + 32px);
+    height: 150px;
+    margin: -16px -16px 12px;
+    object-fit: cover;
+    border-radius: 16px 16px 0 0;
+}
+
 .game-card:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);

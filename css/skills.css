@@ -213,6 +213,15 @@ html, body {
     min-height: 220px;
 }
 
+.skills-card-image {
+    display: block;
+    width: calc(100% + 48px);
+    height: 140px;
+    margin: -24px -24px 8px;
+    object-fit: cover;
+    border-radius: 16px 16px 0 0;
+}
+
 .mode-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 12px 24px rgba(24, 50, 116, 0.08);
@@ -441,6 +450,11 @@ html, body {
         margin-top: 0;
         padding: 18px;
         min-height: 0;
+    }
+
+    .skills-card-image {
+        width: calc(100% + 36px);
+        margin: -18px -18px 8px;
     }
 
     .popular-card {

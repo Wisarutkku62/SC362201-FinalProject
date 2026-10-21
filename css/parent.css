@@ -341,6 +341,15 @@ body {
     box-shadow: 0 6px 18px rgb(30 58 138 / 5%);
 }
 
+.parent-card-image {
+    display: block;
+    width: calc(100% + 40px);
+    height: 140px;
+    margin: -20px -20px 12px;
+    object-fit: cover;
+    border-radius: 14px 14px 0 0;
+}
+
 .card-item:nth-child(even) {
     margin-right: 0;
 }

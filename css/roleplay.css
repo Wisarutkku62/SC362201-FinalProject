@@ -183,6 +183,15 @@
         cursor: pointer;
     }
 
+    .roleplay-card-image {
+        display: block;
+        width: calc(100% + 48px);
+        height: 140px;
+        margin: -24px -24px 16px;
+        object-fit: cover;
+        border-radius: 12px 12px 0 0;
+    }
+
     .card:hover {
         border-color: #183273;
     }
@@ -416,6 +425,11 @@
 
         .card {
             padding: 16px;
+        }
+
+        .roleplay-card-image {
+            width: calc(100% + 32px);
+            margin: -16px -16px 16px;
         }
 
         .progress-card {
